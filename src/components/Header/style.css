@@ -9,9 +9,19 @@
 .intro {
   background-color: #e9ecef;
   padding: 160px 0px;
-
+  display: flex;
   position: relative;
   clip-path: polygon(0px 0px, 100% 0px, 100% 100%, 0px calc(100% - 5vw));
+}
+
+#intro_image {
+  display: flex;
+  position: relative;
+  left: 150px;
+  bottom: 50px;
+  width: 375px;
+  border-radius: 20px;
+  height: auto;
 }
 
 .landing_page_text {
