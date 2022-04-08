@@ -1,0 +1,20 @@
+.App-header {
+  background-color: #282c34;
+  font-size: 28px;
+  color: white;
+  margin: 0px;
+  padding: 10px;
+}
+
+.intro {
+  background-color: #e9ecef;
+  padding: 160px 0px;
+
+  position: relative;
+  clip-path: polygon(0px 0px, 100% 0px, 100% 100%, 0px calc(100% - 5vw));
+}
+
+.landing_page_text {
+  display: flex;
+  padding: 0px 0px 0px 20px;
+}

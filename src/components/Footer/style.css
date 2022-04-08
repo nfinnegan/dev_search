@@ -1,0 +1,19 @@
+.footer,
+.githubLink {
+  text-align: center;
+  color: #edf2f4;
+  background-color: #282c34;
+  height: 50px;
+  font-size: 18pt;
+  padding: 5px;
+}
+
+.icons:hover,
+.githubLink:hover {
+  transform: scale(1.5);
+  color: lightcoral;
+}
+
+.icons {
+  margin: 5px;
+}

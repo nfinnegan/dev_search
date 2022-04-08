@@ -1,20 +1,12 @@
-import logo from "./logo.svg";
+import Header from "./components/Header/Header";
+import Footer from "./components/Footer/Footer";
 import "./App.css";
 
 function App() {
   return (
     <div className="App">
-      <nav className="App-header" id="app_title">
-        dev_search
-      </nav>
-      <header className="intro">
-        <h3>Looking for programmers?</h3>
-        <p>
-          Search potential candidates based on language tags on their Github
-          repos!
-        </p>
-      </header>
-      <div></div>
+      <Header />
+      <Footer />
     </div>
   );
 }
