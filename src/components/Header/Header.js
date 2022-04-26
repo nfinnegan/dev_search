@@ -14,6 +14,11 @@ const Header = () => {
             Search potential candidates based on language tags on their Github
             repos!
           </p>
+          <br />
+          <br />
+          <button className="getStartedBtn">
+            <span id="getStartedText">GET STARTED</span>
+          </button>
         </div>
         <div>
           <img

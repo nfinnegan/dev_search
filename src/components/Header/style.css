@@ -30,3 +30,35 @@
   display: flex;
   padding: 0px 0px 0px 20px;
 }
+
+.getStartedBtn {
+  border-radius: 10px;
+  padding: 10px;
+  position: relative;
+  left: 20px;
+}
+
+.getStartedBtn:hover {
+  cursor: pointer;
+  transform: scale(1.1);
+  font-weight: bold;
+  color: lightcoral;
+}
+
+@media only screen and (max-width: 414px) {
+  .intro {
+    display: flex;
+    flex-flow: column wrap;
+    padding: 15px;
+  }
+  #intro_image {
+    display: flex;
+    /* position: relative;
+    left: 125px;
+    bottom: 50px; */
+    border: 2px solid #282c34;
+    width: 375px;
+    border-radius: 15px 50px;
+    height: auto;
+  }
+}
