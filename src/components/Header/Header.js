@@ -1,5 +1,6 @@
 import React from "react";
 import "./style.css";
+import { Link } from "react-router-dom";
 
 const Header = () => {
   return (
@@ -16,9 +17,11 @@ const Header = () => {
           </p>
           <br />
           <br />
-          <button className="getStartedBtn">
-            <span id="getStartedText">GET STARTED</span>
-          </button>
+          <Link to="/search">
+            <button className="getStartedBtn">
+              <span id="getStartedText">GET STARTED</span>
+            </button>
+          </Link>
         </div>
         <div>
           <img
