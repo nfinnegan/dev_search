@@ -5,17 +5,23 @@ import "./style.css";
 const Search = () => {
   return (
     <div>
-      <aside className="container searchPageWrapper" id="searchText">
+      <div className="container searchPageWrapper" id="searchText">
         Search programming languages to find eligible candidates
         <br />
         <br />
-        <input
-          type="text"
-          name="searchLanguages"
-          id="languageInput"
-          placeholder="ex: Python, JavaScript"
-        ></input>
-      </aside>
+        <form className="searchForm">
+          <input
+            type="search"
+            name="searchLanguages"
+            id="languageInput"
+            required
+            placeholder="ex: Python, JavaScript"
+          />
+          <button id="searchBtn" type="submit">
+            Search
+          </button>
+        </form>
+      </div>
     </div>
   );
 };
