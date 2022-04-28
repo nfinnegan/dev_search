@@ -1,0 +1,13 @@
+.searchPageWrapper {
+  padding-top: 15px;
+}
+
+#searchText {
+  font-size: 20px;
+}
+
+#languageInput {
+  border-radius: 15px;
+  padding: 7px;
+  width: 500px;
+}

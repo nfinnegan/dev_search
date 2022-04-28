@@ -5,9 +5,6 @@ import { Link } from "react-router-dom";
 const Header = () => {
   return (
     <div>
-      <nav className="App-header" id="app_title">
-        dev_search
-      </nav>
       <header className="intro container-fluid">
         <div>
           <h1 className="landing_page_text">Looking for programmers?</h1>

@@ -8,12 +8,13 @@ import {
   Switch,
 } from "react-router-dom";
 import "./App.css";
+import Navbar from "./components/Navbar/Navbar";
 
 function App() {
   return (
     <div className="App">
       <Router>
-        {/* <Header /> */}
+        <Navbar />
         <Routes>
           <Route path="/" element={<Header />} />
           <Route path="/search" element={<Search />} />
