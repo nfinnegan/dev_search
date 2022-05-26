@@ -7,7 +7,7 @@
   font-size: 20px;
 }
 
-form {
+/* form {
   color: #555;
   display: flex;
   padding: 5px;
@@ -16,6 +16,15 @@ form {
   width: 600px;
   position: relative;
   left: 355px;
+} */
+
+.searchForm {
+  color: #555;
+  display: flex;
+  padding: 5px;
+  border: 1px solid currentColor;
+  border-radius: 15px;
+  width: 600px;
 }
 
 input[type="search"] {
@@ -26,7 +35,7 @@ input[type="search"] {
   padding: 7px 8px;
   font-size: 16px;
   color: inherit;
-  border: 1px solid transparent;
+  /* border: 1px solid transparent; */
   border-radius: inherit;
 }
 
